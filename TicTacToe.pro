@@ -3,12 +3,12 @@ CONFIG += console c++11
 CONFIG -= app_bundle
 CONFIG -= qt
 
-SOURCES += main.cpp \
-    board.cpp \
-    game.cpp
+SOURCES += src/main.cpp \
+    src/board.cpp \
+    src/game.cpp
 
 LIBS += -lncurses
 
 HEADERS += \
-    board.h \
-    game.h
+    src/board.h \
+    src/game.h

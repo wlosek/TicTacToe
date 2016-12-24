@@ -12,7 +12,7 @@ public:
     Board();
 
     void        DrawBoard() const;
-    void        UpdateBoard(const unsigned int &pos, const char &value);
+    void        UpdateBoard(const unsigned int pos, const char value);
     bool        CheckWin() const;
 
 private:

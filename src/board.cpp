@@ -22,7 +22,7 @@ void Board::DrawBoard() const
     printw("\t     |     |     \n");
 }
 
-void Board::UpdateBoard(const unsigned int& pos, const char& value)
+void Board::UpdateBoard(const unsigned int pos, const char value)
 {
     m_Table.at(pos - 1) = value;
 }
